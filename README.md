@@ -20,4 +20,4 @@ This Chrome extension allows you to automate your text conversations with the he
 - Pick one and send it without needing to think too hard!
 
 ## Watch the Demo on YouTube!
-- I've made a video walking through the project, explaining how the extension works, and showing it in action. You can watch it here: [How To Stop Being a Bad Texter (with Computer Science)](https://youtu.be/zQRIbKmueTg)
+- I've made a video walking through the project, explaining how the extension works, and showing it in action. You can watch it here: [How To Stop Being a Bad Texter (with Computer Science)](https://youtu.be/MyAMLpX9tz4)
