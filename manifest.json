@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Assistant",
+  "description": "Become a better texter",
+  "version": "1.0",
+  "permissions": ["activeTab", "declarativeContent", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "run-chat": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Displays suggestion popup"
+    }
+  }
+}
